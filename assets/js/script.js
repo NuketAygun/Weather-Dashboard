@@ -1,12 +1,12 @@
-var apiKey="9e51d281356b0ffe07e06f28dbb6b631"
 
+// API Key
+var apiKey="9e51d281356b0ffe07e06f28dbb6b631"
 var cities=[];
 var latitude;
 var longtitude;
 
 
-
-
+//To solve the asynchronous code problem
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
@@ -53,7 +53,7 @@ $("#search-button").on("click", function (event) {
     .then(function (data) {
 
         //console.log(data);
-
+        
         var todayData = data.list[0];
 
         var tempC = ((todayData.main.temp - 273.15).toFixed(2));
@@ -74,14 +74,7 @@ $("#search-button").on("click", function (event) {
     $("#today").append("<p>Humidity : "+ todayData.main.humidity + "%</p>");
     $("#today").append("<p> Wind Speed :" + todayData.wind.speed + "KPH</p>");
 
-    /* // Convert the temp to Celsius
-     var tempC = todayData.main.temp - 273.15;
-
-     // add temp content to html
-     $(".temp").text("Temperature (K) " + todayData.main.temp);
-     $(".tempC").text("Temperature (C) " + tempC.toFixed(2));
-  */
-
+   
         var forecast1= data.list[3];
         var forecastDate = forecast1.dt_txt;
         var tempC1 = ((forecast1.main.temp - 273.15).toFixed(2));
