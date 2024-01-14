@@ -1,4 +1,54 @@
 #search-button{
-    background-color: #20315A;
+    background-color: dodgerblue;
     color: white;
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
 }
+#search-input{
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+#forecast-row{
+   
+    margin-right: 10px;
+}
+#forecast-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px; 
+  }
+  #today {
+    display: flexbox;
+    flex-direction: row;
+    padding-left: 10px;
+    border: solid;
+  }
+ 
+
+  #forecast-days{
+    background-color: #323f5e;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 20px;
+    width: 250px;
+    color: white;
+    margin-top: 20px;
+  }
+  .weather-hr{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: black;
+  }
+ 
+  button{
+    background-color: rgb(146, 144, 144);
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  
