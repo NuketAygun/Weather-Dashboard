@@ -8,17 +8,12 @@
 #search-input{
     width: 300px;
     border-radius: 10px;
-    
-}
-
-#forecast-row{
-   
-    margin-right: 10px;
 }
 #forecast-row {
     display: flex;
     flex-direction: row;
     margin-left: 16px; 
+    margin-right: 10px;
   }
   #today {
     display: flexbox;
@@ -26,10 +21,8 @@
     padding-left: 10px;
     border: solid;
   }
- 
-
   #forecast-days{
-    background-color: #323f5e;
+    background-color:  #323f5e;
     border: solid;
     margin: 15px;
     margin-bottom: 20px;
@@ -44,7 +37,6 @@
     font-weight: bold;
     color: black;
   }
- 
   button{
     background-color: rgb(146, 144, 144);
     border-radius: 5px;

@@ -44,7 +44,7 @@ function displayWeatherData(data){
     //Append the content in the today data
 
     todayContainer.append("<h2>"+data.city.name+"</h2>");
-    todayContainer.append("<p>Date: "+todayData.dt_txt.split(' ')[0]+"</p>");
+    todayContainer.append("<p>Date: ("+todayData.dt_txt.split(' ')[0]+")</p>");
     var iconURL= "https://openweathermap.org/img/w/"+ todayData.weather[0].icon+".png";
     todayContainer.append("<img src='"+iconURL+"' alt='today Icon'>");
     var tempCelsius = (todayData.main.temp - 273.15).toFixed(2);
@@ -60,7 +60,7 @@ function displayWeatherData(data){
     var forecastRow = $("<div class='row' id='forecast-row'>");
  
 
-    for(var i =1; i<5; i++){
+    for(var i=0; i<5; i++){
         var forecast= data.list[i*8];
         var forecastDate= forecast.dt_txt.split(' ')[0];
         

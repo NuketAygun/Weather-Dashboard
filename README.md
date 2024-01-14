@@ -59,8 +59,10 @@ Reach me via [Email](mailto:nukumoonday@gmail.com)
 
 
 
-![Alt text](<Screenshot 2023-12-19 231623.png>)
-![Alt text](<Screenshot 2023-12-19 231701.png>)
+![Alt text](<Screenshot 2024-01-14 181140.png>)
+![Alt text](<Screenshot 2024-01-14 181122.png>)
+<video src="Weather%20Dashboard%20and%204%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202024-01-14%2018-13-35.mp4" controls title="Title"></video>
+
 
 
 
